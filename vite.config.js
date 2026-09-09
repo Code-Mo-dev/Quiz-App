@@ -12,7 +12,7 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
   ],
-  base: '/quiz-app/',
+  base: '/Quiz-App/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
