@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-page .container {
+  background-color: #fff;
+  max-width: 700px;
+  min-height: 500px;
+  margin: 35px auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.home-page .container header {
+  height: 120px;
+  background-color: #003049;
+  border-radius: 10px;
+}
+.home-page .container header h1 {
+  text-align: center;
+  font-size: 27px;
+  color: #fff;
+  padding: 20px 10px 10px;
+}
+.home-page .container header .contentHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+}
+.home-page .container header .contentHeader span {
+  font-size: 18px;
+  color: #fff;
+}
+.home-page .container .content {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin-top: 1rem;
+}
+.home-page .container .content .question {
+  font-weight: 500;
+}
+.home-page .container .content ol {
+  margin: 1rem 0px 0px 5px;
+}
+.home-page .container .content ol li {
+  background-color: #ddd;
+  margin-bottom: 0.7rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+  list-style-position: inside;
+  cursor: pointer;
+}
+.home-page .container .content ol li.active {
+  border: 2px solid #003049;
+}
+.home-page .container .finishedContent {
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.home-page .container footer {
+  background-color: transparent;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.home-page .container footer .submit, .home-page .container footer .back {
+  width: 100px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #003049;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.home-page .container footer .submit.active, .home-page .container footer .active.back {
+  background-color: #fff;
+  color: #003049;
+  transition: 0.3s linear;
+  border: 2px solid #003049;
+}
+.home-page .container footer .submit:disabled, .home-page .container footer .back:disabled {
+  cursor: not-allowed;
+}
+.home-page .container footer .back {
+  background-color: transparent;
+  color: #003049;
+  border: 2px solid #003049;
+}
+.home-page .container footer .back.active {
+  background-color: #003049;
+  color: #fff;
+  transition: 0.3s linear;
+  border: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #fdf0d5;
+  color: #003049;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}/*# sourceMappingURL=main.css.map */

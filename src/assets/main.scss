@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//* import Component
+@import "pages/_home.scss";
+@import "pages/_variables.scss";
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: $papaya-whip;
+  color: $deep-space-blue;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
